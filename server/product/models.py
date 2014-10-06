@@ -59,7 +59,6 @@ class Product(models.Model):
     preferential_price = models.DecimalField(u'优惠价',max_digits=10,decimal_places=2)
     thumb = models.ImageField(u'封面图片')
     description = models.TextField(u'描述')
-
     class Meta:
         verbose_name = u'菜'
         verbose_name_plural = u'菜管理'
